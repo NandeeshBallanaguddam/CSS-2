@@ -1,0 +1,153 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("./assets/v915-wit-002.jpg");
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.box1 {
+    box-sizing: border-box ;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 5px solid;
+    border-color: red; 
+    width: 300px;
+    height: 100px;
+}
+
+.box2 {
+    box-sizing: border-box ;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 5px solid;
+    border-color: red;
+    height: 70px;
+    width: 350px;
+    margin-left: -450px;
+    margin-top: 10px;
+}
+.box3{
+    box-sizing: border-box ;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 5px solid;
+    border-color: red; 
+    width: 300px;
+    height: 100px;
+}
+
+.ul {
+    list-style-type: none;
+
+  }
+
+  .li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    /* font-family: 'Rubik', sans-serif; */
+    font-style: italic;
+    
+  }
+
+.menu {
+        margin-left: 400px;
+        margin-right: 400px;
+        background-color:black;
+        border: 5px solid red;
+        color: white;
+        border-radius: 50px;
+        box-sizing: content-box;
+        font-style: italic;
+        font-size: 20px;
+}
+
+
+p{
+    text-align: center;
+    font-style:italic;
+}
+
+
+.content{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card2{
+    box-sizing: border-box;
+    width: 400px;
+    outline: dashed red;
+    margin-left: 700px;
+    outline-width: 5px;
+    background-color: white;
+    
+    
+}
+form{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: brown;
+    padding-top: 10px;
+}
+h2 {
+    text-align: center;
+    color:rgb(114, 63, 254);
+}
+li {
+    text-align: center;
+    color:rgb(114, 63, 254);
+    
+}
+label {
+    color:red
+}
+
+.card {
+        width: 500px;
+        /* height: 200px; */
+        background-color:cyan;
+        border: 1px solid green;
+        padding: 10px;
+        margin: 10px;
+        box-sizing: border-box ;
+        border-radius: 20px;
+      }
+      .card-container{
+        display: flex;
+        flex-direction:row;
+      }
+
+      .circle {
+          position: absolute;
+          top: 40%;
+          left: 10%;
+          height: 400px;
+          width: 400px;
+          border-radius:50%;
+          background-color:rgb(6, 218, 179);
+          border:5px solid gray;
+          text-decoration: underline;
+
+          
+      }
+      .circle-content{
+        text-align: center;
+        font-weight: bold;
+      }
+
+      hr{
+        width: 100%;
+      }
